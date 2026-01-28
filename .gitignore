@@ -1,0 +1,24 @@
+# --- C++ Compiled Files ---
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+
+# --- CMake Build Folder & Artifacts ---
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# --- VS Code Settings (Tùy bạn, thường nên ignore để không conflict cấu hình với người khác) ---
+.vscode/
+*.code-workspace
+
+# --- ZED SDK & Temp Files ---
+*.svo
+*.conf
+*.log

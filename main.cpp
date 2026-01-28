@@ -54,6 +54,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
+
     // 3. CẤU HÌNH RUNTIME
     ObjectDetectionRuntimeParameters obj_runtime_param;
     obj_runtime_param.detection_confidence_threshold = 40;
